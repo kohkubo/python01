@@ -23,7 +23,7 @@ def main():
             if not x:
                 pass
             elif tmp in states:
-                pass
+                print(capital_cities[states[tmp]], "is the capital of", tmp)
             elif tmp in capital_cities.values():
                 ab = [k for k, v in capital_cities.items() if v == tmp]
                 state = [k for k, v in states.items() if v == ab[0]]
